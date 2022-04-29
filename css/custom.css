@@ -1,0 +1,48 @@
+/* hides input spinner */
+.no-spin::-webkit-inner-spin-button, .no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+.no-spin {
+  -moz-appearance:textfield !important;
+}
+
+.framer {
+  padding: 10px;
+  border-radius: .25rem!important;
+  box-shadow: rgb(58 78 95 / 20%) 0 10px 16px, rgb(58 78 95 / 5%) 0 -5px 16px;
+  background-color: #fff;
+}
+
+.spacer0 {
+  width: 100%;
+  height: 15px;
+  display: block;
+  clear: both;
+}
+
+.small-input {
+  width: 60px;
+}
+
+.framer th {
+  margin-left: -20px;
+  font-size: .9em;
+  line-height: 1.1em;
+  border-top: none !important;
+}
+
+.framer td {
+  vertical-align: middle;
+  font-size: .9em;
+  line-height: 1.1em;
+}
+
+.total-price, .final-price {
+  padding-left: 2em!important;
+  padding-right: 2em!important;
+}
+
+.final-price {
+  font-weight: bold;
+}
